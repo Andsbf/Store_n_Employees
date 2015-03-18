@@ -5,3 +5,12 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+
+@store1 = Store.find(1)
+@store2 = Store.find(2)
+
+puts 'store id = 2 renamed'
+@store1.name = 'Anderson'
+@store1.save
+
+
